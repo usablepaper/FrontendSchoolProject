@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./LHJ_LION.css" />
+        <script defer src="./LHJ_LION.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <title>로그인 또는 회원가입</title>
+    </head>
+    <body>
+        <main>
+            <div class="login-modal">
+                <div class="login-modal-header">
+                    <h1 class="login-modal-title">로그인 또는 회원가입</h1>
+                    <img src="./LHJ_LION_img/close.png" class="login-modal-close-button" />
+                </div>
+                <div class="login-section">
+                    <div class="login-section-top">
+                        <h2>위니브에서 여러분의 궁금증을 해결하세요! :)</h2>
+                        <div class="login-checkbox">
+                            <input type="checkbox" id="keep-login-in" name="keep-login-in" />
+                            <label for="keep-login-in">로그인 상태 유지</label>
+                        </div>
+                        <!-- 로그인창 -->
+                        <div class="login-form">
+                            <div class="login-form-container">
+                                <form action="">
+                                    <input
+                                        type="text"
+                                        placeholder="아이디를 입력하세요."
+                                        name="username"
+                                        required
+                                    />
+                                    <input
+                                        type="password"
+                                        placeholder="패스워드를 입력하세요."
+                                        name="password"
+                                        required
+                                    />
+                                    <button class="login-button">로그인</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- 로그인창 끝 -->
+                        <button class="login-form-opener">로그인</button>
+                        <div class="login-member">
+                            <a href="#">회원가입</a>
+                            |
+                            <a href="#">아이디/비밀번호 찾기</a>
+                        </div>
+                        <span>또는</span>
+                    </div>
+                    <div class="login-section-bottom">
+                        <div class="sns-login google">
+                            <a href="https://www.google.com"></a>
+                            <img src="./LHJ_LION_img/icon_google.png" />
+                            <span>구글 계정으로 로그인</span>
+                        </div>
+                        <div class="sns-login facebook">
+                            <a href="https://www.facebook.com"></a>
+                            <img src="./LHJ_LION_img/icon_facebook.png" />
+                            <span>페이스북 계정으로 로그인</span>
+                        </div>
+                        <div class="sns-login naver">
+                            <a href="https://www.naver.com"></a>
+                            <img src="./LHJ_LION_img/icon_naver.png" />
+                            <span>네이버 계정으로 로그인</span>
+                        </div>
+                        <div class="sns-login kakao">
+                            <a href="https://www.kakaocorp.com"></a>
+                            <img src="./LHJ_LION_img/icon_kakao.png" />
+                            <span>카카오톡 계정으로 로그인</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
